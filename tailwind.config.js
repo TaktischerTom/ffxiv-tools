@@ -3,7 +3,7 @@ module.exports = {
     content: ['./src/**/*.{html,js}'],
     theme: {
         extend: {
-            typography: ({ theme }) => ({
+            typography: () => ({
                 pink: {
                     css: {}
                 }
