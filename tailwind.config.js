@@ -2,7 +2,13 @@
 module.exports = {
     content: ['./src/**/*.{html,js}'],
     theme: {
-        extend: {}
+        extend: {
+            typography: ({ theme }) => ({
+                pink: {
+                    css: {}
+                }
+            })
+        }
     },
     plugins: [require('@tailwindcss/typography')]
 }
